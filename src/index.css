@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    font-family: 'Space Grotesk', sans-serif;
+    background: #7575FF; 
+    color: #FFFFFF; 
+    font-size: 1em; 
+    padding: 0.6em 1.4em; 
+    border-radius: 1.3em; 
+    font-weight: 700; 
+    font-style: normal;
+  }
+
+.sub-t {
+  margin-top: 7em;
+}
+
+.card {
+  margin-top: 4em;
+  width: 30em;
+  height: auto;
+  margin-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background: #FFFFFF;
+  /* Dropshadow */
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 40px;
+}
+
+.cardsub {
+  position: relative;
+  margin-left: 1.9em;
+  margin-right: 2em;
+}
+
+.line {
+  width: 98%;
+  
+
+}
+
+
+
+@media (max-width: 480px) {
+  
+
+  .btn {
+    font-size: 0.8em;
+  }
+
+  .pad {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+}
