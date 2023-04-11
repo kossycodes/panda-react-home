@@ -4,9 +4,7 @@ import logo from "../assets/pandalogo.png";
 export default function Navbar() {
 
     const [nav, setNav] = React.useState(false)
-    const  handleNav = () => {
-        setNav(!nav)
-    }
+    
 
 
     return (
