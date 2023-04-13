@@ -75,9 +75,9 @@ export default function Form({updatedValue, setShowModel}) {
              </section>
 
              {/*Transaction button  */}
-             <section className="flex justify-between mt-8">
-                <button className="font-space font-medium bg-bluebg rounded-3xl text-xl text-white px-8 py-3">Send Cash</button>
-                <button className="font-space font-medium bg-bluebg rounded-3xl text-xl text-white px-8 py-3">Recieve cash</button>
+             <section className="flex justify-between gap-0 mt-8">
+                <button className=" sendcash ">Send Cash</button>
+                <button className=" sendcash ">Recieve cash</button>
              </section>
 
              {/*Reload */}
