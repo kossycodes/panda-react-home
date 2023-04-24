@@ -8,7 +8,7 @@ export default function Form({updatedValue, setShowModel}) {
    
 
    return (
-     <div className="flex justify-center relative  mx-auto ">
+     <div className="flex justify-center relative px-2  mx-auto ">
         <form className="card" action="">
           <div className="mx-8 relative">
              <section className="flex justify-between items-center  mb-3">
@@ -75,7 +75,7 @@ export default function Form({updatedValue, setShowModel}) {
              </section>
 
              {/*Transaction button  */}
-             <section className="flex justify-between gap-0 mt-8">
+             <section className="flex justify-center gap-4 mt-8">
                 <button className=" sendcash ">Send Cash</button>
                 <button className=" sendcash ">Recieve cash</button>
              </section>
