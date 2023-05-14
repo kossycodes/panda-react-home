@@ -1,26 +1,51 @@
-import Navbar from "./components/Navbar"
-import Main from "./components/Main"
-import Form from "./components/Form"
-import Model from "./components/Model"
-import { useState } from "react"
+
+
+import Home from "./pages/Home"
+import Send from "./pages/Send"
+import Phone from "./pages/Phone"
+import Success from "./pages/Success"
+import Complete from "./pages/Complete"
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+
 
 
 
 function App() {
-  const [showModel, setShowModel] = useState(false)
-  const updatedValue = (newShowModel) => {
-    setShowModel(newShowModel)
-  }
-  const handleOnClose = () => updatedValue(false)
+  
 
 
   return (
-    <div  >
-      <Navbar />
-      <Main />
-      <Form updatedValue={updatedValue} showModel={showModel} />
-      <Model onClose={handleOnClose} visible={ showModel } />
-    </div>
+        
+    <BrowserRouter>
+          
+       <main>
+         
+         
+          <Routes>
+             <Route path="/" element={<Home />} />
+          </Routes>
+          <Routes>
+             <Route path="/send" element={<Send />} />
+          </Routes>
+          <Routes>
+             <Route path="/phone" element={<Phone />} />
+          </Routes>
+          <Routes>
+             <Route path="/success" element={<Success />} />
+          </Routes>
+          <Routes>
+             <Route path="/complete" element={<Complete />} />
+          </Routes>
+       </main>
+    
+    </BrowserRouter>
+    
   )
 }
 

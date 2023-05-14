@@ -3,7 +3,7 @@ import React from "react"
 
 
 
-export default function Main() {
+export default function Hint() {
 
     return (
         <main>

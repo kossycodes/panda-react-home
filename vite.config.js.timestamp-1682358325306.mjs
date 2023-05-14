@@ -10,7 +10,7 @@ var vite_config_default = defineConfig({
     watch: {
       usePolling: true
     }
-  }
+  } 
 });
 export {
   vite_config_default as default

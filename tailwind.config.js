@@ -23,6 +23,7 @@ export default {
       'line': '#D2D2D2',
       'bluebg': '#7575FF',
       'greybg2': '#F6F6F6',
+      'cast': '#D2D2D2',
     },
     fontFamily: {
       space: ['Space Grotesk', 'sans-serif'],

@@ -53,10 +53,23 @@
   box-shadow: 0em 0em 0px #000000; 
   border-radius: 1.5em; 
   border: solid 0em #000000; 
-  font-weight: 600; 
+  font-weight: 500; 
   font-family: 'Space Grotesk', sans-serif;
   font-style: normal;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  outline: none;
+}
+
+.react-tel-input .flag-dropdown:before  {
+  display: none;
+}
+ 
+
 
 
 
